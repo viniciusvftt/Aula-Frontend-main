@@ -1,8 +1,15 @@
 body{
     background-color: rgb(30, 34, 37);
     color: white;
-    font-family: 'Segoe UI';  
-    cursor: wait;
+    font-family: 'Segoe UI';
+
+    margin: 0 auto;
+}
+
+/* MINHA SEGUNDA SECTION SE CHAMA SESSAO-SOBRE*/
+/* COLOQUEM O NOME DA SEGUNDA SECTION DE VOCÊS*/
+#sessao-sobre{ 
+    background-color: rgb(40, 46, 51);;
 }
 
 a{
@@ -15,36 +22,24 @@ a:hover{
 }
 
 header{
-    
-    position: fixed;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     position: sticky;
     top: 0;
-    background-color: rgb(29, 29, 29);
-    max-height: 3cm;
+    z-index: 1000;
+    background-color: rgb(188, 186, 186);
 }
-.gif{
-    max-height: 3cm;
-    width: 1200px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
+
 .container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
+    align-items: center; 
+    max-width: 1200px;   
     margin: 0 auto;
-
 }
-
-
-
 
 h2{
     font-size: 56px;
@@ -102,21 +97,13 @@ input{
     cursor: pointer;
 }
 
-#primeirasessao{
-    background-color: #8a2be2;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    justify-content: center;
-}
+footer{background-color: #565656;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  height:50px;
 
-
-
-#terceirasessao{
-    background-color: #8a2be2;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
-    ;
 }
-
-
-
-
