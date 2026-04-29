@@ -103,7 +103,26 @@ footer{background-color: #565656;
   align-items: center;
   justify-content: center;
   font-size: 25px;
-  height:50px;
+  height:50px;   
+}
 
-    
+@media (max-width:780px) {
+    .container{
+        flex-direction: column;
+    }
+    .imgbody{
+        width: 250px;
+        height:250px;
+    }
+    .imgtopo{
+        display: none;
+    }
+
+
+
+
+
+
+
+
 }
